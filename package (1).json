@@ -1,0 +1,14 @@
+{
+  "name": "discord-voice-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that stays in a voice channel 24/7",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.18.0"
+  }
+}
